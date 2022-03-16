@@ -1,6 +1,7 @@
 exclude: |
     (?x)^(
         Brewfile\.lock\.json|
+        inspec\.lock|
         .*\.svg|
         tmp/.*
     )$
