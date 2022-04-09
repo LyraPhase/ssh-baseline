@@ -5,7 +5,7 @@ title "LyraPhase SSH Baseline"
 sshd_custom_path = '/etc/ssh'
 
 # Include all ssh-baseline except forwarding & PrintLastLog options
-require_controls 'ssh-baseline' do
+include_controls 'ssh-baseline' do
   skip_control 'sshd-39' # Server: Disable TCP forwarding
   skip_control 'sshd-40' # Server: Disable Agent forwarding
   skip_control 'sshd-42' # Server: Disable X11Forwarding
