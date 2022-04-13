@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'cookstyle', '~> 7.32'
+group :development do
+  gem 'cookstyle', '~> 7.32'
+end
