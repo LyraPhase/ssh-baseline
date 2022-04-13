@@ -1,6 +1,6 @@
 # copyright: 2022, James Cuzella
 
-title "LyraPhase SSH Baseline"
+title 'LyraPhase SSH Baseline'
 
 sshd_custom_path = '/etc/ssh'
 
@@ -24,7 +24,6 @@ control 'sshd-39' do
     its('AllowTcpForwarding') { should eq(sshd_tcpforwarding) }
   end
 end
-
 
 # SSHD Configuration AllowAgentForwarding is expected to eq "yes"
 sshd_agentforwarding = 'yes'

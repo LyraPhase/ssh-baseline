@@ -41,3 +41,14 @@ repos:
                 \.git/hooks/.*|
                 hooks/.*
             )$
+- repo: https://github.com/mattlqx/pre-commit-ruby
+  rev: v1.3.4
+  hooks:
+  - id: cookstyle
+    args: ["--fix"]
+    files: |
+        (?x)^(
+            controls/.*\.rb|
+            libraries/.*\.rb|
+            files/.*\.rb
+        )$

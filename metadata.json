@@ -1,0 +1,19 @@
+{
+    "depends": [
+        {
+            "url": "https://github.com/dev-sec/ssh-baseline/archive/master.tar.gz",
+            "name": "ssh-baseline"
+        }
+    ],
+    "summary": "An InSpec Compliance Profile",
+    "version": "0.1.0",
+    "copyright": "James Cuzella",
+    "name": "lyraphase-ssh-baseline",
+    "title": "InSpec Profile",
+    "license": "Apache-2.0",
+    "supports": {
+        "platform": "os"
+    },
+    "maintainer": "James Cuzella",
+    "copyright_email": "james.cuzella@lyraphase.com"
+}
